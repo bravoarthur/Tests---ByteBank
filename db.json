@@ -1,6 +1,6 @@
 {
   "conta": {
-    "saldo": 1000
+    "saldo": 2000
   },
   "transacoes": [
     {
@@ -152,6 +152,168 @@
       "valor": "1000",
       "data": "17/04/2022",
       "id": 25
+    },
+    {
+      "transacao": "saque",
+      "valor": "R$ 10",
+      "data": "17/04/2022",
+      "id": 26
+    },
+    {
+      "transacao": "saque",
+      "valor": "R$ 10",
+      "data": "17/04/2022",
+      "id": 27
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 28
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 29
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 30
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 31
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 32
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 33
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 34
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 35
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 36
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1000",
+      "data": "17/04/2022",
+      "id": 37
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 38
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 39
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 40
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 41
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 42
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 43
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 44
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 45
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 46
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 47
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 48
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 49
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "17/04/2022",
+      "id": 50
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "19/04/2022",
+      "id": 51
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "19/04/2022",
+      "id": 52
     }
   ]
 }

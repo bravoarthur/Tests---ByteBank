@@ -1,5 +1,5 @@
 import React from 'react';
-import {getByTestId, render , screen} from "@testing-library/react";
+import {fireEvent, getByTestId, render , screen} from "@testing-library/react";
 import App, {calcularNovoSaldo, calculoNovoSaldo} from './App'
 
 
@@ -71,6 +71,8 @@ describe('Componente principal', () => {
 
             const {getByText, getByTestId, getByLabelText} = render(<App/>)
 
+            // e mais facil apenas renderizar o APP e para ter acesso a essas funcoes, fazer abaixo - const saldo = screen.getByText('R$ 1000) porque o "screen" possui tudo que o app renderizou
+
             const saldo = getByText('R$ 1000')
             const transacao = getByLabelText('Saque')
             const valor = getByTestId('valor')
@@ -78,7 +80,11 @@ describe('Componente principal', () => {
 
             expect(saldo.textContent).toBe('R$ 1000')
 
-            
+            fireEvent.click(transacao, {target: {value: 'saque'}})
+            fireEvent.change(valor, {target: {value:  10}})
+            fireEvent.click(botaoTransacao)
+
+            expect(saldo.textContent).toBe('R$ 990')            
 
         })
         
