@@ -1,6 +1,6 @@
 import React from 'react';
-import {fireEvent, getByTestId, render , screen} from "@testing-library/react";
-import App, {calcularNovoSaldo, calculoNovoSaldo} from './App'
+import {fireEvent, render , screen} from "@testing-library/react";
+import App, {calcularNovoSaldo} from './App'
 
 
 
