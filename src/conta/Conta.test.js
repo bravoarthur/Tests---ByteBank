@@ -9,7 +9,7 @@ describe('Componente de conta' , () => {
         render(<Conta saldo={1000} />)
 
         const saldo = screen.getByTestId('saldo-conta')
-        //const saldo = screen.getByText('R$ 1000')
+        //const saldo = screen.getByText('R$ 1000') alternativa
 
         expect(saldo.textContent).toBe('R$ 1000')
 
