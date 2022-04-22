@@ -14,4 +14,8 @@ describe('Componente de conta' , () => {
         expect(saldo.textContent).toBe('R$ 1000')
 
     })
+
+    it('Realizar a transacao quando o Botao e Clicado', () => {
+        render(<Conta saldo={1000} />)
+    })
 })
